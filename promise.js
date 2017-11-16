@@ -27,7 +27,7 @@
         }
     );
 
-    //Without Promise, To see the difference comment above code
+    //Without Promise, To see the difference comment above code from with promise
     /*setTimeout( 
             () => { 
                 completed = "Yes"; 
