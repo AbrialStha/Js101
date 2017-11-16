@@ -1,7 +1,7 @@
  //A man has to complete two jobs, jbo1 and job2 
     //but however for job2 job1 must be completed first but job1 will only start after certain time(2s)
     var completed;
-    function job2(){
+    let job2 = () => {
         if(completed == "Yes"){
             console.log("Next job started");
         }else {
